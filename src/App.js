@@ -1,7 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 
+import API from './api/api';
+
 function App() {
+
+  API.get(`recipe/list`)
+  .then(res => {
+    console.log(res);
+  })
+
   return (
     <div className="App">
       <header className="App-header">

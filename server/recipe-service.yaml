@@ -22,6 +22,8 @@ paths:
               examples:
                 sample1:
                   $ref: '#/components/examples/GetRecipeList'
+          headers:
+            Access-Control-Allow-Origin: "http://localhost:3000/"
       operationId: get-recipe-list
 components:
   schemas:
