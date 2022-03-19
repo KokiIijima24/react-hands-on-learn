@@ -22,8 +22,6 @@ paths:
               examples:
                 sample1:
                   $ref: '#/components/examples/GetRecipeList'
-        '201':
-          description: Created
       operationId: get-recipe-list
 components:
   schemas:
@@ -39,19 +37,31 @@ components:
           type: string
         description:
           type: string
+        rate:
+          type: number
         deleted:
           type: boolean
+        ingredients:
+          type: array
+          items:
+            $ref: '#/components/schemas/Ingredient'
+        steps:
+          type: array
+          items:
+            type: string
+    Ingredient:
+      title: Ingredient
+      type: object
+      properties:
+        name:
+          type: string
+        amount:
+          type: number
+        measurement:
+          type: string
   securitySchemes: {}
   requestBodies: {}
   responses: {}
   examples:
     GetRecipeList:
-      value:
-        - id: '001'
-          name: carbonara
-          description: string
-          deleted: false
-        - id: '002'
-          name: carbonara
-          description: string
-          deleted: false
+      $ref: ./data/recipe-list.json
