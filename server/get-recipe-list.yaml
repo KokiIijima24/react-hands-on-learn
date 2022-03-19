@@ -1,0 +1,57 @@
+openapi: 3.1.0
+info:
+  title: recipe sample data
+  version: '1.0'
+  description: ''
+servers:
+  - url: 'http://localhost:3000'
+paths:
+  /recipe/list:
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Recipe'
+              examples:
+                sample1:
+                  $ref: '#/components/examples/GetRecipeList'
+        '201':
+          description: Created
+      operationId: get-recipe-list
+components:
+  schemas:
+    Recipe:
+      title: Recipe
+      description: ''
+      examples: []
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        description:
+          type: string
+        deleted:
+          type: boolean
+  securitySchemes: {}
+  requestBodies: {}
+  responses: {}
+  examples:
+    GetRecipeList:
+      value:
+        - id: '001'
+          name: carbonara
+          description: string
+          deleted: false
+        - id: '002'
+          name: carbonara
+          description: string
+          deleted: false
