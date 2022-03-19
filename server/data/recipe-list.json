@@ -9,47 +9,47 @@
       "ingredients": [
         {
           "name": "pasta",
-          "amount": "1",
+          "amount": 1,
           "measurement": "100g"
         },
         {
           "name": "soil",
-          "amount": "1",
+          "amount": 1,
           "measurement": "2 teaspoons"
         },
         {
           "name": "bacon",
-          "amount": "1",
+          "amount": 1,
           "measurement": "100g"
         },
         {
           "name": "egg",
-          "amount": "1",
+          "amount": 1,
           "measurement": "1"
         },
         {
           "name": "fresh cream",
-          "amount": "1",
+          "amount": 1,
           "measurement": "50ml"
         },
         {
           "name": "grated cheese",
-          "amount": "1",
+          "amount": 1,
           "measurement": "2 spoons"
         },
         {
           "name": "grated onion",
-          "amount": "1",
+          "amount": 1,
           "measurement": "1 teaspoon"
         },
         {
           "name": "olive oil",
-          "amount": "1",
+          "amount": 1,
           "measurement": "1 spoon"
         },
         {
           "name": "black papper",
-          "amount": "1",
+          "amount": 1,
           "measurement": "small"
         }
       ],
@@ -70,52 +70,52 @@
       "ingredients": [
         {
           "name": "pasta",
-          "amount": "1",
+          "amount": 1,
           "measurement": "100g"
         },
         {
           "name": "onion",
-          "amount": "1/2",
+          "amount": 0.5,
           "measurement": "1/2"
         },
         {
           "name": "green bell pepper",
-          "amount": "1",
+          "amount": 1,
           "measurement": "1"
         },
         {
           "name": "wiener",
-          "amount": "3",
+          "amount": 3,
           "measurement": "3"
         },
         {
           "name": "mushroom",
-          "amount": "5",
+          "amount": 5,
           "measurement": "40g"
         },
         {
           "name": "catsup",
-          "amount": "1",
+          "amount": 1,
           "measurement": "3 spoons"
         },
         {
           "name": "soil",
-          "amount": "1",
+          "amount": 1,
           "measurement": "small"
         },
         {
           "name": "black pepper",
-          "amount": "1",
+          "amount": 1,
           "measurement": "1"
         },
         {
           "name": "Parmesan cheese",
-          "amount": "1",
+          "amount": 1,
           "measurement": "1"
         },
         {
           "name": "parsley",
-          "amount": "1",
+          "amount": 1,
           "measurement": "1"
         }
       ],
@@ -135,42 +135,42 @@
       "ingredients": [
         {
           "name": "pasta",
-          "amount": "1",
+          "amount": 1,
           "measurement": "150g"
         },
         {
           "name": "king oyster mushroom",
-          "amount": "1",
+          "amount": 1,
           "measurement": "50g"
         },
         {
           "name": "shiitake mushroom",
-          "amount": "2",
+          "amount": 2,
           "measurement": "2"
         },
         {
           "name": "onion",
-          "amount": "1/4",
+          "amount": 0.25,
           "measurement": "1/4"
         },
         {
           "name": "mushroom",
-          "amount": "5",
+          "amount": 5,
           "measurement": "40g"
         },
         {
           "name": "butter",
-          "amount": "1",
+          "amount": 1,
           "measurement": "10g"
         },
         {
           "name": "soy source",
-          "amount": "2",
+          "amount": 2,
           "measurement": "2 spoons"
         },
         {
           "name": "soil",
-          "amount": "1",
+          "amount": 1,
           "measurement": "small"
         }
       ],
