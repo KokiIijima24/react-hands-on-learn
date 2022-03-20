@@ -28,3 +28,5 @@ npm install -g @stoplight/prism-cli
 ## Design system
 
 This application uses [Tailwind](https://tailwindcss.com/docs/installation) for its customizability.
+
+source: [Tailwind Toolbox](https://www.tailwindtoolbox.com/templates/minimal-blog)
