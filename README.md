@@ -2,28 +2,48 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This sample application is designed for learning React.
+## 動作環境
 
-## Available Scripts
+- Git
+- node.js ≧ v14
+    - npm
+    - @stoplight/prism-cli
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm run server`
-
-The mock server starts up.
-Before executing this command, please install a mock package called Prism.
+## 実行方法
 
 ```
-npm install -g @stoplight/prism-cli
+git clone https://github.com/koki-2424/react-hands-on-learn.git
+cd react-hands-on-learn
+npm i
 ```
+
+### モックサーバーを起動する
+
+npm ls -g --depthを実行して、prismが入っていないことを確認した場合は
+> PS C:\User> npm ls -g --depth=0 \
+> C:\Program Files\nodejs \
+> +-- @stoplight/prism-cli@4.8.0 \
+> +-- npm@6.14.15 \
+
+以下のコマンドを実行してインストールする。
+```
+npm install @stoplight/prism-cli
+```
+
+モックサーバーを起動する。
+
+```
+npm run server
+```
+
+### アプリケーションを起動する
+
+```
+npm run start
+```
+
+[http://localhost:3000](http://localhost:3000)へアクセスし、起動していることを確認する。
+
 
 ## Design system
 
