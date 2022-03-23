@@ -13,7 +13,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ```
 git clone https://github.com/koki-2424/react-hands-on-learn.git
-cd react-hands-on-learn
+cd react-hands-on-learn/client
 npm i
 ```
 
