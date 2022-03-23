@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import API from './api/api'
 import RecipeList from './pages/RecipeList'
 import { PageLayout } from './components/PageLayout'
 import Home from './pages/Home'
@@ -16,9 +15,6 @@ const Pages = () => {
 }
 
 function App() {
-  API.get(`recipe/list`).then((res) => {
-    console.log(res)
-  })
 
   return (
     <div className='App'>
