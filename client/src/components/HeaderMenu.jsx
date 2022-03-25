@@ -10,12 +10,12 @@ function HeaderMenu() {
     b = document.body,
     st = 'scrollTop',
     sh = 'scrollHeight',
-    progress = document.querySelector('#progress'),
-    scroll = 0;
+    progress = document.querySelector('#progress');
   var scrollpos = window.scrollY
   var header = document.getElementById('header')
   var navcontent = document.getElementById('nav-content')
-
+  let scroll = 0
+  
   const isScrollToggle = useCallback(() => {
     console.log('sclolled', scrollpos)
 
@@ -91,9 +91,8 @@ function HeaderMenu() {
           </div>
 
           <div
-            className={`w-full flex-grow lg:flex lg:items-center lg:w-auto lg:block mt-2 lg:mt-0 bg-gray-100 md:bg-transparent z-20 ${
-              navToggle ? '' : 'hidden'
-            }`}
+            className={`w-full flex-grow lg:flex lg:items-center lg:w-auto lg:block mt-2 lg:mt-0 bg-gray-100 md:bg-transparent z-20 ${navToggle ? '' : 'hidden'
+              }`}
             id='nav-content'
           >
             <ul className='list-reset lg:flex justify-end flex-1 items-center'>
