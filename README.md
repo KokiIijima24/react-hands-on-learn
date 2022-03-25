@@ -50,3 +50,8 @@ npm run start
 This application uses [Tailwind](https://tailwindcss.com/docs/installation) for its customizability.
 
 source: [Tailwind Toolbox](https://www.tailwindtoolbox.com/templates/minimal-blog)
+
+## 課題
+<img width="304" alt="image" src="https://user-images.githubusercontent.com/36002092/160033386-6f3c2c69-28dd-4e0e-b92e-043822968c68.png">
+赤丸で囲まれた箇所はレシピの評価を表しています。
+この数値を使ってレーティング機能を実装してください。
